@@ -1,0 +1,15 @@
+{
+  "full_name": "Yaroslav Matveychuk",
+  "email": "yaroslav.matveychuk@gmail.com",
+  "github_username": "yaroslavm",
+  "project_name": "test-project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Test project for tests",
+  "function_name": "{{ cookiecutter.project_slug.title().replace('_', '') }}",
+  "topic_name": "test.tochange",
+  "region": "europe-west3",
+  "java_package": "org.maty.test",
+  "java_package_dir": "{{ cookiecutter.java_package|replace('.', '/') }}",
+  "version": "0.1.0",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
