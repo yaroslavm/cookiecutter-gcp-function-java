@@ -6,7 +6,7 @@ steps:
       - deploy
       - {{ cookiecutter.project_slug }}
       - --entry-point={{ cookiecutter.java_package }}.{{ cookiecutter.function_name }}
-      - --region=europe-west3
+      - --region={{ cookiecutter.region }}
       - --source=.
       - --trigger-topic={{ cookiecutter.topic_name }}
       - --runtime=java11
